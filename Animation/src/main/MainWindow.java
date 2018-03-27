@@ -15,6 +15,7 @@ public class MainWindow extends JFrame
 		this.setTitle("Animation");
 		this.setSize(300, 300);
 		this.setLocationRelativeTo(null);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setVisible(true);
 	}
 	
